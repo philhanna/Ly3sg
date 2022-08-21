@@ -1,7 +1,7 @@
 # Ly3sg
-Three Stages of Grief composition.  This was the assignment:
+"Three Stages of Grief" composition.  This was the assignment:
 
-MUS 320:  Assignment for March 2
+MUS 320:  Assignment for March 2, 2021
 
 “Stages of Grief”: https://en.wikipedia.org/wiki/Kübler-Ross_model
 
