@@ -1,14 +1,18 @@
 \version "2.20.0"
 
 \pointAndClickOff
-%\include "event-listener.ly"
 
 #(ly:set-option 'midi-extension "mid")
 
 \header {
   title = "Three Stages of Grief"
   subtitle = "Anger - Depression - Acceptance"
-  composer = "Phil Hanna"
+  composer = "Phil Hanna, Op. 6"
+  dedication = \markup \italic \center-column {
+    \line {to Peter Askim}
+    \vspace #1
+    \line { }
+  }
 }
 
 \paper {
