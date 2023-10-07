@@ -1,5 +1,6 @@
 dynamics = {
   \time 4/4
+  \tempo 4=#tempoI
   s1				| %m1
   s1				| %m2
   s1				| %m3

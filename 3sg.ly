@@ -1,6 +1,6 @@
 \version "2.20.0"
 
-\pointAndClickOff
+\pointAndClickOn
 
 #(ly:set-option 'midi-extension "mid")
 
@@ -108,16 +108,7 @@ global = {
   \fill-line {
     \center-column  {
       \vspace #1
-      \line \italic { "And I will strike down upon thee with great vengeance and furious anger" }
-      \vspace #-0.3
-      \line \italic { "those who attempt to poison and destroy my brothers, and you will" }
-      \vspace #-0.3
-      \line {
-        \concat {\italic "know my name is the "
-                 \smallCaps "Lord"
-                 \italic " when I lay my vengeance upon thee!"
-        }
-      }
+      \line \italic { An end is come, the end is come: it watcheth for thee; behold, it is come. (Ezekiel 7:6)}
       \vspace #1
     }
   }

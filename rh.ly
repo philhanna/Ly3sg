@@ -3,13 +3,13 @@ rh = \relative c'' {
   \clef treble
 
   %m1
-  R1*4/4 |
+  R1*4/4
+  
 
   %m2
   %
   % Motive (P)
   %
-  \tempo 4=#tempoI
   \tupletUp
   \tuplet 5/4 { c16 \f [ b f e' dis ~ ] } dis4
   %
@@ -212,7 +212,7 @@ rh = \relative c'' {
 
   %m22
   \time 5/4
-  %\once \omit Score.MetronomeMark
+  \once \omit Score.MetronomeMark
   \tempo 4=#(inexact->exact (round (/ tempoI 1.6)))
   f4 r1
   |
@@ -238,7 +238,8 @@ rh = \relative c'' {
           \vspace #-1
           \line {
             \concat { \italic "Out of the depths have I cried unto thee, O "
-                      \smallCaps "LORD."
+                      \smallCaps "LORD. "
+                      \italic "(Psalm 130:1)"
             }
           }
         }
@@ -366,7 +367,7 @@ rh = \relative c'' {
         \column {
           \vspace #-1
           \line {
-            \italic "Be it unto me according to thy word."
+            \italic "Be it unto me according to thy word. (Luke 1:38)"
           }
         }
       }

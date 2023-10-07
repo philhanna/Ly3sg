@@ -7,7 +7,7 @@ lh = \relative c {
   % Fragment (first three notes of P)
   % as chord
   %
-  \once \omit Score.MetronomeMark
+  %\once \omit Score.MetronomeMark
   \tempo 4=#tempoI
 
   \ottava #-1
